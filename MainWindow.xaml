@@ -1,0 +1,54 @@
+﻿<Window x:Class="ParsingWeatherDz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ParsingWeatherDz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="356" Width="881">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="label_day1" Grid.Column="0" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day2" Grid.Column="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day3" Grid.Column="2" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day4" Grid.Column="3" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day5" Grid.Column="4" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day6" Grid.Column="5" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day7" Grid.Column="6" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day8" Grid.Column="7" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day9" Grid.Column="8" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_day10" Grid.Column="9" HorizontalContentAlignment="Center"></Label>
+
+        <Label x:Name="label_temp1" Grid.Column="0" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp2" Grid.Column="1" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp3" Grid.Column="2" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp4" Grid.Column="3" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp5" Grid.Column="4" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp6" Grid.Column="5" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp7" Grid.Column="6" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp8" Grid.Column="7" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp9" Grid.Column="8" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+        <Label x:Name="label_temp10" Grid.Column="9" Grid.Row="1" HorizontalContentAlignment="Center"></Label>
+
+
+        <Label x:Name="test_tb" Grid.Row="6" Grid.ColumnSpan="10" FontSize="32" HorizontalContentAlignment="Center"></Label>
+
+    </Grid>
+</Window>

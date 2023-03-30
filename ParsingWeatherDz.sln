@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParsingWeatherDz", "ParsingWeatherDz.csproj", "{ADB21EF7-3451-4024-B2CE-713CF04FD0DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADB21EF7-3451-4024-B2CE-713CF04FD0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADB21EF7-3451-4024-B2CE-713CF04FD0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADB21EF7-3451-4024-B2CE-713CF04FD0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADB21EF7-3451-4024-B2CE-713CF04FD0DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BF0AED0-7701-4EDA-BC34-D00AA4BCA31E}
+	EndGlobalSection
+EndGlobal
